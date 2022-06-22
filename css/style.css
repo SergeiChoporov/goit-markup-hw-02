@@ -1,0 +1,218 @@
+/** @format */
+
+:root {
+  --color-accent: #2196f3;
+  --text-color-black: #212121;
+  --text-color-gray: #757575;
+  --color-white: #ffffff;
+}
+
+/* Base */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-color-gray);
+  background-color: var(--color-white);
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-title {
+  color: var(--text-color-black);
+  line-height: 1.2;
+  font-size: 36px;
+}
+
+.logo {
+  font-weight: 700;
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.accent {
+  color: var(--color-accent);
+}
+
+.nav-link.link.current {
+  color: var(--color-accent);
+}
+
+.filter-list {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: #f5f4fa;
+  color: var(--text-color-black);
+}
+
+.filter-list:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.filter-list:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+span {
+  color: var(color-accent);
+}
+
+.header {
+  background-color: var(--color-white);
+}
+
+.nav-link,
+.contact-link {
+  color: var(--text-color-black);
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+.contact-link {
+  color: var(--text-color-gray);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus .current .accent {
+  color: var(--color-accent);
+}
+
+.linkaddress {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+
+.address-title {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.address-title {
+  color: rgba (255, 255, 255, 0.6);
+}
+
+.address-title:hover,
+.address-title:focus {
+  color: var(--color-accent);
+}
+
+.team-name {
+  color: var(--text-color-black);
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.products {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--color-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.feature-title {
+  color: var(--text-color-black);
+  font-size: 14px;
+  line-height: 1.15;
+}
+
+.feature-text {
+  line-height: 1.71;
+}
+
+.title-item {
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--text-color-black);
+  letter-spacing: 0.06em;
+}
+
+.team-title {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.button {
+  color: var(--color-white);
+  background: var(--color-accent);
+  font-weight: 700;
+  line-height: 1.9;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+/*footer*/
+.footer {
+  background: #2f303a;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-contacts {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer .logo {
+  color: var(--color-white);
+}
+
+.filter-btn.active {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.filter-btn.active:hover,
+.filter-btn.active:focus {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+
